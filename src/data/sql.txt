@@ -1,0 +1,159 @@
+Question 1:
+What does SQL stand for?
+Structured Query Language    Correct Answer  
+Structured Question Language
+Strong Question Language
+
+Question 2:
+Which SQL statement is used to extract data from a database?
+SELECT    Correct Answer  
+EXTRACT
+GET
+OPEN
+
+Question 3:
+Which SQL statement is used to update data in a database?
+UPDATE    Correct Answer  
+MODIFY
+SAVE
+SAVE AS
+
+Question 4:
+Which SQL statement is used to delete data from a database?
+DELETE    Correct Answer  
+REMOVE
+COLLAPSE
+
+Question 5:
+Which SQL statement is used to insert new data in a database?
+INSERT INTO    Correct Answer  
+ADD NEW
+INSERT NEW
+ADD RECORD
+
+Question 6:
+With SQL, how do you select a column named "FirstName" from a table named "Persons"?
+SELECT FirstName FROM Persons    Correct Answer  
+EXTRACT FirstName FROM Persons
+SELECT Persons.FirstName
+
+Question 7:
+With SQL, how do you select all the columns from a table named "Persons"?
+SELECT * FROM Persons    Correct Answer  
+SELECT *.Persons
+SELECT [all] FROM Persons
+SELECT Persons
+
+Question 8:
+With SQL, how do you select all the records from a table named "Persons" where the value of the column "FirstName" is "Peter"?
+SELECT * FROM Persons WHERE FirstName='Peter'    Correct Answer  
+SELECT * FROM Persons WHERE FirstName<>'Peter'
+SELECT [all] FROM Persons WHERE FirstName LIKE 'Peter'
+SELECT [all] FROM Persons WHERE FirstName='Peter'
+
+Question 9:
+With SQL, how do you select all the records from a table named "Persons" where the value of the column "FirstName" starts with an "a"?
+SELECT * FROM Persons WHERE FirstName LIKE 'a%'    Correct Answer  
+SELECT * FROM Persons WHERE FirstName='a'
+SELECT * FROM Persons WHERE FirstName LIKE '%a'
+SELECT * FROM Persons WHERE FirstName='%a%'
+
+Question 10:
+The OR operator displays a record if ANY conditions listed are true. The AND operator displays a record if ALL of the conditions listed are true
+True    Correct Answer  
+False
+
+Question 11:
+With SQL, how do you select all the records from a table named "Persons" where the "FirstName" is "Peter" and the "LastName" is "Jackson"?
+SELECT * FROM Persons WHERE FirstName='Peter' AND LastName='Jackson'    Correct Answer  
+SELECT FirstName='Peter', LastName='Jackson' FROM Persons
+SELECT * FROM Persons WHERE FirstName<>'Peter' AND LastName<>'Jackson'
+
+Question 12:
+With SQL, how do you select all the records from a table named "Persons" where the "LastName" is alphabetically between (and including) "Hansen" and "Pettersen"?
+SELECT * FROM Persons WHERE LastName>'Hansen' AND LastName<'Pettersen'   
+SELECT LastName>'Hansen' AND LastName<'Pettersen' FROM Persons
+SELECT * FROM Persons WHERE LastName BETWEEN 'Hansen' AND 'Pettersen'    Correct Answer  
+
+Question 13:
+Which SQL statement is used to return only different values?
+SELECT DISTINCT    Correct Answer  
+SELECT DIFFERENT
+SELECT UNIQUE
+
+Question 14:
+Which SQL keyword is used to sort the result-set?
+ORDER BY    Correct Answer  
+SORT BY
+SORT
+ORDER
+
+Question 15:
+With SQL, how can you return all the records from a table named "Persons" sorted descending by "FirstName"?
+SELECT * FROM Persons ORDER BY FirstName DESC    Correct Answer  
+SELECT * FROM Persons SORT BY 'FirstName' DESC
+SELECT * FROM Persons SORT 'FirstName' DESC
+SELECT * FROM Persons ORDER FirstName DESC
+
+Question 16:
+With SQL, how can you insert a new record into the "Persons" table?
+INSERT VALUES ('Jimmy', 'Jackson') INTO Persons    
+INSERT ('Jimmy', 'Jackson') INTO Persons
+INSERT INTO Persons VALUES ('Jimmy', 'Jackson')    Correct Answer  
+
+Question 17:
+With SQL, how can you insert "Olsen" as the "LastName" in the "Persons" table?
+INSERT ('Olsen') INTO Persons (LastName)    
+INSERT INTO Persons ('Olsen') INTO LastName
+INSERT INTO Persons (LastName) VALUES ('Olsen')    Correct Answer  
+
+Question 18:
+How can you change "Hansen" into "Nilsen" in the "LastName" column in the Persons table?
+UPDATE Persons SET LastName='Nilsen' WHERE LastName='Hansen'    Correct Answer  
+UPDATE Persons SET LastName='Hansen' INTO LastName='Nilsen'
+MODIFY Persons SET LastName='Hansen' INTO LastName='Nilsen
+MODIFY Persons SET LastName='Nilsen' WHERE LastName='Hansen'
+
+Question 19:
+With SQL, how can you delete the records where the "FirstName" is "Peter" in the Persons Table?
+DELETE FROM Persons WHERE FirstName = 'Peter'    Correct Answer  
+DELETE FirstName='Peter' FROM Persons
+DELETE ROW FirstName='Peter' FROM Persons
+
+Question 20:
+With SQL, how can you return the number of records in the "Persons" table?
+SELECT COUNT(*) FROM Persons    Correct Answer  
+SELECT NO(*) FROM Persons
+SELECT LEN(*) FROM Persons
+SELECT COLUMNS(*) FROM Persons
+
+Question 21:
+What is the most common type of join?
+INNER JOIN    Correct Answer  
+JOINED
+INSIDE JOIN
+JOINED TABLE
+
+Question 22:
+Which operator is used to select values within a range?
+BETWEEN    Correct Answer  
+RANGE
+WITHIN
+
+Question 23:
+The NOT NULL constraint enforces a column to not accept null values.
+True    Correct Answer  
+False
+
+Question 24:
+Which operator is used to search for a specified pattern in a column?
+LIKE    Correct Answer  
+FROM
+GET
+
+Question 25:
+Which SQL statement is used to create a table in a database?
+CREATE TABLE    Correct Answer  
+CREATE DATABASE TAB
+CREATE DATABASE TABLE
+CREATE DB

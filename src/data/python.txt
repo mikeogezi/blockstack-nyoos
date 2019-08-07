@@ -1,0 +1,164 @@
+Question 1:
+What is a correct syntax to output "Hello World" in Python?
+print("Hello World")    Correct Answer  
+echo("Hello World");
+echo "Hello World"
+p("Hello World")
+
+Question 2:
+How do you insert COMMENTS in Python code?
+#This is a comment    Correct Answer  
+/*This is a comment*/
+//This is a comment
+
+Question 3:
+Which one is NOT a legal variable name?
+my-var    Correct Answer  
+my_var
+_myvar
+Myvar
+
+Question 4:
+How do you create a variable with the numeric value 5?
+Both the other answers are correct    Correct Answer  
+x = 5
+x = int(5)
+
+Question 5:
+What is the correct file extension for Python files?
+.py    Correct Answer  
+.pyth
+.pt
+.pyt
+
+Question 6:
+How do you create a variable with the floating number 2.8?
+Both the other answers are correct    Correct Answer  
+x = 2.8
+x = float(2.8)
+
+Question 7:
+What is the correct syntax to output the type of a variable or object in Python?
+print(type(x))    Correct Answer  
+print(typeOf(x))
+print(typeof(x))
+print(typeof x)
+
+Question 8:
+What is the correct way to create a function in Python?
+def myFunction():    Correct Answer  
+function myfunction():
+create myFunction():
+
+Question 9:
+In Python, 'Hello', is the same as "Hello"
+True    Correct Answer  
+False
+
+Question 10:
+What is a correct syntax to return the first character in a string?
+x = "Hello"[0]    Correct Answer  
+x = "Hello".sub(0, 1)
+x = sub("Hello", 0, 1)
+
+Question 11:
+Which method can be used to remove any whitespace from both the beginning and the end of a string?
+strip()    Correct Answer  
+len()
+ptrim()
+trim()
+
+Question 12:
+Which method can be used to return a string in upper case letters?
+upper()    Correct Answer  
+upperCase()
+toUpperCase()
+uppercase()
+
+Question 13:
+Which method can be used to replace parts of a string?
+replace()    Correct Answer  
+replaceString()
+switch()
+repl()
+
+Question 14:
+Which operator is used to multiply numbers?
+*    Correct Answer  
+%
+#
+x
+
+Question 15:
+Which operator can be used to compare two values?
+==    Correct Answer  
+><
+<>
+=
+
+Question 16:
+Which of these collections defines a LIST?
+["apple", "banana", "cherry"]    Correct Answer  
+{"apple", "banana", "cherry"}
+("apple", "banana", "cherry")
+{"name": "apple", "color": "green"}
+
+Question 17:
+Which of these collections defines a TUPLE?
+("apple", "banana", "cherry")    Correct Answer  
+{"name": "apple", "color": "green"}
+{"apple", "banana", "cherry"}
+["apple", "banana", "cherry"]
+
+Question 18:
+Which of these collections defines a SET?
+{"apple", "banana", "cherry"}    Correct Answer  
+("apple", "banana", "cherry")
+["apple", "banana", "cherry"]
+{"name": "apple", "color": "green"}
+
+Question 19:
+Which of these collections defines a DICTIONARY?
+{"name": "apple", "color": "green"}    Correct Answer  
+("apple", "banana", "cherry")
+["apple", "banana", "cherry"]
+{"apple", "banana", "cherry"}
+
+Question 20:
+Which collection is ordered, changeable, and allows duplicate members?
+LIST    Correct Answer  
+SET
+TUPLE
+DICTIONARY
+
+Question 21:
+Which collection does not allow duplicate members?
+SET    Correct Answer  
+TUPLE
+LIST
+
+Question 22:
+How do you start writing an if statement in Python?
+if x > y:    Correct Answer  
+if (x > y)
+if x > y then:
+
+Question 23:
+How do you start writing a while loop in Python?
+while x > y:    Correct Answer  
+x > y while {
+while x > y {
+while (x > y)
+
+Question 24:
+How do you start writing a for loop in Python?
+for x in y:    Correct Answer  
+for x > y:
+for each x in y:
+
+Question 25:
+Which statement is used to stop a loop?
+break    Correct Answer  
+exit
+stop
+return
