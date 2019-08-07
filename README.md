@@ -1,2 +1,2 @@
 # Nyoos
-### Nyoos is a decentralized and highly encrypted messaging service
+### Nyoos is a decentralized news aggregator built on the Blockstack platform.
